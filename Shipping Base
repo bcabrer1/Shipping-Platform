@@ -1,0 +1,32 @@
+
+#Ground Shipping
+print("Hi, Welcome to our family run store that has been running for the past 45 years. How can we help you?")
+weight = 41.5
+print("You have the following weight: and below will be the options ")
+print(weight)
+
+print
+print("Ground Shipping")
+if weight <= 2:
+  print((weight * 1.50) + 20)
+elif weight >= 2 and weight <= 6:
+  print((weight * 3.00) +20)
+elif weight >= 6 and weight <= 10:
+  print((weight * 4.00) + 20)
+else: 
+  print((weight * 4.75)+ 20 )
+#premuim ground shipping
+print("Premium Cost")
+premium_cost = "120"
+print(premium_cost)
+
+  #Drone Shipping
+print("Drone Shipping Cost")
+if weight <= 2:
+  print((weight * 4.50) + 0)
+elif weight >= 2 and weight <= 6:
+  print((weight * 9.00) +0)
+elif weight >= 6 and weight <= 10:
+  print((weight * 12.00) + 0)
+else: 
+  print((weight * 14.25)+ 0 )
